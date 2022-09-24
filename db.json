@@ -1,0 +1,46 @@
+{
+  "producto": [
+    {
+      "name": "Chipa",
+      "imageurl": "\\imagenes\\almacen\\chipa.jpeg",
+      "price": "$342",
+      "description": "Chipas hechos con harina 0000, de alta calidad, listos para poner al horno y disfrutar",
+      "id": "1"
+    },
+    {
+      "name": "barras",
+      "imageurl": "\\imagenes\\almacen\\barras.png",
+      "price": "234",
+      "description": "Barras de distintos cereales, con miel y sin azúcar.",
+      "id": "2"
+    },
+    {
+      "name": "burrito",
+      "imageurl": "\\imagenes\\almacen\\burrito.jpeg",
+      "price": "678,90",
+      "description": "burritos de carne, pollo, acelga y morron",
+      "id": "3"
+    },
+    {
+      "name": "Frambuesas",
+      "imageurl": "\\imagenes\\frutas\\frambuesa.jpg",
+      "price": "234,87",
+      "description": "Frambuesas seleccionadas",
+      "id": "60e84b6a-b660-490c-9832-d453d33dc687"
+    },
+    {
+      "name": "papas",
+      "imageurl": "\\imagenes\\vegetales\\papas.png",
+      "price": "90,70",
+      "description": "papas cortadas en bastón",
+      "id": "5a5c7936-7ba7-41fc-bbe4-3a162c8aa54c"
+    },
+    {
+      "name": "Duraznos",
+      "imageurl": "\\imagenes\\frutas\\durazno.png",
+      "price": "345",
+      "description": "Rodajas de duraznos amarillos seleccionados",
+      "id": "dda544b9-10a5-413f-bfb6-6548d40485a9"
+    }
+  ]
+}

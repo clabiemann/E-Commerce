@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alta de Productos</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    
+</head>
+<body>
+    <form class ="data-form" id="form1" data-form>
+        <h1>Introduzca los datos del nuevo producto:</h1>
+        <label for="url">Ubicación de la imagen: </label>
+        <input class ="nuevo" id ="url" type ="text" placeholder="URL de la imagen" required data-url>
+        <label for="nombre">Nombre del producto: </label>
+        <input class ="nuevo" id="nombre" type="text" placeholder="Nombre del producto" required data-nombre>
+        <label for="precio">Precio: </label>
+        <input class ="nuevo" id="precio" type="text" placeholder="Precio" required data-precio>
+        <label for="descripcion">Descripcion del producto: </label>
+        <textarea class="nuevo" cols="30" rows="10" placeholder="Introducir una breve descripción del producto" required data-description></textarea>   
+        <button type="submit" class="btn-enviar" >Guardar</button>
+        <button type="submit" class="btn-cerrar" onclick="window.close()">Cerrar</button>
+    </form>
+    
+    
+    <script type="module" src="../controllers/update-controller.js"></script>
+    
+    
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+      integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+        
+      
+</body>
+</html>
