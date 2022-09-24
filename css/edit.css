@@ -1,0 +1,43 @@
+.productos__titulos{
+    display: flex;
+    align-items: center;
+}
+.productos__fila{
+    padding: 1em;
+    display: flex;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+
+.productos-imagen, .productos-nombre, .productos-precio, .productos-descripcion, .productos-detalle{
+    margin: 0.8em;
+}
+.productos-imagen{
+    width: 10em;
+    height: 10em;
+}
+.btn-agregar, .btn-enviar, .btn-editar, .btn-eliminar, .btn-cerrar{
+    background-color: #12e9ba;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1em;
+    text-align: center;
+    font-weight: bold;
+    width: 10em;
+    padding: 1.2em;
+    font-size: large;
+    font-family: var(--font-family);
+    margin: 0.5em;
+}
+
+.btn-agregar:hover, .btn-cerrar:hover, .btn-enviar:hover, .btn-editar:hover, .btn-eliminar:hover, .btn-cerrar:hover{
+    background: linear-gradient(#ffdd7f 5%, #ffbc00 100%);
+}    
+.btn-edicion{
+    display: flex;
+    flex-direction: column;
+}
+

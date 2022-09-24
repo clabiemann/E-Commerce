@@ -1,0 +1,147 @@
+.header__uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+}
+.header__uno-buscador, .header__uno-texto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em 0.5em;
+    background: #f5f5f5;
+    border-radius: 20px;
+}
+.header__uno-texto{
+    align-items: flex-start;
+    font-family: var(--font-family);
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+.header__uno-lupa{
+    padding: 1em;
+}
+
+.header__uno-login, .btn-agregar, .btn-enviar, .btn-cerrar{
+    background-color: #12e9ba;
+    border-color: black;
+    border-style:solid;
+    border-radius: 1em;
+    text-align: center;
+    font-weight: bold;
+    width: 10em;
+    padding: 1.2em;
+    font-size: large;
+    font-family: var(--font-family);
+}
+.btn-editar, .btn-eliminar{
+    display: none;
+}
+.header__dos{
+   text-align: center;
+   background: #0c7961;
+  
+}
+.productos__fila{
+    padding: 1em;
+    display: flex;
+   
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+}
+.productos-imagen, .productos-nombre, .productos-precio, .productos-descripcion, .productos-detalle{
+    margin: 0.8em;
+}
+.productos-imagen{
+    height: 10em;
+    width: 10em;
+}
+
+.nosotros{
+    background-color: #2068c7;
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    justify-content:space-between;
+  
+    
+}
+
+.nosotros__logo, .nosotros__menu, .nosotros__form{
+    padding: 1em;
+}
+.nosotros__menu-item{
+    padding: 1em;
+}
+.nosotros__menu-texto{
+    font-family: var(--font-family);
+    font-size: 1.5em;
+}
+.nosotros__form-form{
+    display: flex;
+    flex-direction: column;
+}
+.nosotros__form-titulo, .nosotros__form-nombre{
+    font-family: var(--font-family);
+    font-size: 1em;
+    margin: 1em;
+    width: 30em;
+    padding: 1em;
+}
+.nosotros__form-mensaje{
+    font-family: var(--font-family);
+    font-size: 1em;
+    margin: 1em;
+}
+.nosotros__form-boton{
+    background-color: rgb(26, 138, 41);
+    font-family: var(--font-family);
+    font-size: 1em;
+    font-weight: bold;
+    width: 10em;
+    height: 5em;
+    border-radius: 1em;
+    margin: 1em;
+}
+.pie_de_pagina{
+    text-align: center;
+    padding: 1em;
+}
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+@media screen and (max-width: 768px){
+    .header__uno{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+    }
+
+    .header__uno-logo{
+        width: 100px;
+    }
+    .nosotros{
+        background-color: white;
+        display:inline;
+        
+    }
+    .nosotros__logo{
+        display: none;
+    }
+       
+    
+}
