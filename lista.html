@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Altas, bajas y modificaciones</title>
+    <link href="../css/reset.css" rel="stylesheet">
+    <link href="../css/edit.css" rel="stylesheet">
+
+</head>
+<body>
+    <main class="contenido">
+        <section class="productos__seccion">
+            <div class="productos__fila">
+                <div class="productos__titulos">
+                    <h2 >Edición de productos</h2>
+                    <div class="caja-btn-agregar">
+                        <a class = "btn-agregar" href ="add-products.html" target="_blank">Agregar Producto</a>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn-cerrar" onclick="window.close()">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="productos" data-productos></div>
+            
+        </section>
+    </main>    
+    <script type="module" src="../controllers/products-controller.js"></script>
+    
+
+
+</body>
