@@ -41,6 +41,13 @@
       "price": "345",
       "description": "Rodajas de duraznos amarillos seleccionados",
       "id": "dda544b9-10a5-413f-bfb6-6548d40485a9"
+    },
+    {
+      "name": "Lúcuma",
+      "imageurl": "\\imagenes\\frutas\\lucuma.png",
+      "price": "$450",
+      "id": "eed4beb1-0153-4e05-909c-db55981d826a",
+      "description": "Bolsas de 1kg de Lúcuma"
     }
   ]
 }
