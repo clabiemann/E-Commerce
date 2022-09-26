@@ -142,6 +142,9 @@ input[type=text], textarea {
     .nosotros__logo{
         display: none;
     }
+    .nosotros__form{
+        width: 20em;
+    }
        
     
 }
